@@ -239,6 +239,9 @@ let main = async() => {
     },
   ];
 
+
+
+  
   let answer = await inquirer.prompt(questions);
   switch (answer.command) {
     case "View all employees":
