@@ -1,3 +1,5 @@
+USE employees_tracker;
+
 INSERT INTO department
     (name)
 VALUES
@@ -17,4 +19,6 @@ INSERT INTO employee
 VALUES
     ("Lois", "Aleghe", "1", "6"),
     ("Joe", "Skate", "9", null),
-    ("Kyle", "Bruno", "3", "5"),;
+    ("Kyle", "Bruno", "3", "5");
+
+
